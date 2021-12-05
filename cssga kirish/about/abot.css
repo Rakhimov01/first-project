@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    background-image: url(../images/14.jpg);
+}
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 20%;
+    background-color: rgb(3, 199, 3);
+    text-align: center;
+    color: white;
+    height: 765px;
+    padding: 10px;
+}
+.left h1{
+    font-size: 27px;
+}
+.left a i{
+    border-radius: 50%;
+    padding: 5px;
+    margin: 20px 5px;
+    color: rgb(12, 71, 12);
+    background-color: white;
+}
+.left img{
+    margin: 20px 0;
+    width: 200px;
+    border-radius: 50%;
+}
+.left p a{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.right{
+    margin-top: 50px;
+}
+.right .head{
+    text-align: center;
+}
+.head p{
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.head input{
+    height: 30px;
+    width: 360px;
+    border-radius: 5px;
+}
+.head button{
+    width: 100px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+    background-color: rgb(3, 199, 3);
+}
+.head button:hover{
+    background-color: red;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box a{
+    color: white;
+    font-weight: 900;
+}
+.box a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+.box button{
+    border-radius: 5px;
+    border: none;
+    width: 180px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: slategray;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.box button:hover{
+    background-color: red;
+    color: black;
+}
+.body{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.box1{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+.body .box1 img{
+    width: 100px;
+    margin-right: 15px;
+}
+.conteiner .box2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.box2 a{
+    width: 100px;
+    background-color: rgb(3, 199, 3);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.box2 a:hover{
+    color: black;
+    background-color: red;
+}
